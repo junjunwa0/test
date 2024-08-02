@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.shop-header {
+    background-color: black; /* ヘッダーを黒地に */
+    color: white; /* 文字を白に */
+}
+
+.shop-header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop-header nav ul li {
+    list-style: none;
+}
+
+.shop-header nav ul li a {
+    text-decoration: none;
+    color: white; /* 文字色を白に */
+}
+
+.shop-header .logo img {
+    max-height: 50px;
+}
+
+.shop-top-section {
+    display: flex;
+    justify-content: space-between; /* 画像間の間隔を1pxに */
+    padding: 10px;
+    margin: 0 1px; /* 左右の画像を画面端に揃える */
+}
+
+.shop-item {
+    width: calc(25% - 2px); /* 横の間隔を1pxに */
+    margin: 1px;
+    text-align: left;
+}
+
+.shop-item img {
+    width: 100%;
+    height: auto;
+}
+
+.item-info {
+    font-size: 15px;
+    line-height: 1px; /* 文字の縦の間隔を1pxに設定 */
+}
+
+.item-name {
+    font-weight: bold;
+}
