@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header, footer {
+    background-color: black;
+    text-align: left;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-section, .middle-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.box.mission {
+    background-image: url('./assets/images/logo.png');
+}
+
+.box.value {
+    background-image: url('./assets/images/logo.png');
+}
+
+.box.vision {
+    background-image: url('./assets/images/logo.png');
+}
+
+.box h2 {
+    margin: 0 0 10px;
+}
+
+.text-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-section img {
+    max-width: 10%;
+    height: auto;
+}
+
+.bottom-section {
+    text-align: left;
+    padding: 20px;
+    width: 100%; /* セクションを幅いっぱいに広げる */
+}
+
+.bottom-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-section ul li {
+    display: block;
+    text-align: left;
+}
+
+.bottom-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
