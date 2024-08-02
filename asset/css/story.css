@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header, footer {
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 10px 0;
+}
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+header .logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+.body-upper {
+    text-align: center;
+    padding: 20px;
+}
+
+.body-text {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.body-lower {
+    text-align: left;
+    padding: 20px;
+}
+
+.body-lower .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.body-lower .links li {
+    display: block;
+}
+
+.body-lower .links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.body-lower .logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body-lower .logo img {
+    max-height: 100px;
+}
+
+.additional-links {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.additional-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.additional-links ul li {
+    display: block;
+}
+
+.additional-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
